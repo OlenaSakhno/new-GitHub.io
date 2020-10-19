@@ -213,6 +213,10 @@ nav{
     bottom: -20px;
     right: 0px;
 }
+
+.rooms{
+    border: solid black 1px;
+}
 @media(max-width: 767px){
     #menu-tile, #special,#map{
         width: 608px;
