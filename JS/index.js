@@ -1,4 +1,4 @@
-/*var message="Global";
+var message="Global";
 
 var x = function(){
     var message= "Local";
@@ -33,8 +33,8 @@ available : function(){
 }
 };
 var numb = document.getElementById('availableRooms');
-numb.textContent  = hotel.available();*/
+numb.textContent  = hotel.available();
 
 
-var weekFromToday = new Data(today.getTime());
-console.log('weekFromToday ' + weekFromToday);
+/*var weekFromToday = new Data(today.getTime());
+console.log('weekFromToday ' + weekFromToday);*/
