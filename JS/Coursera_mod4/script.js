@@ -73,14 +73,16 @@ WARNING!!! WARNING!!!
 })();
 
 
-      //****************InnerHTML
+      //**************** InnerHTML
 var el=document.getElementById('lastModif')
 el.innerHTML='LAST MODIFIED - '+document.lastModified;
 
+      //**********  Using HTML5 events
 
 function setup(){
   var textInput;
   textInput=document.getElementById('message');
+
 }
 
 window.addEventListener('DOMContentLoaded', setup, false);

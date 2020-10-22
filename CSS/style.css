@@ -249,3 +249,9 @@ nav{
     text-transform: lowercase;
   
 }
+
+#message{
+    border: solid black 2px;
+    width: 400px;
+    height: 200px;
+}
