@@ -72,4 +72,17 @@ WARNING!!! WARNING!!!
   }
 })();
 
-console.log(document.lastModified);
+
+      //****************InnerHTML
+var el=document.getElementById('lastModif')
+el.innerHTML='LAST MODIFIED - '+document.lastModified;
+
+
+function setup(){
+  var textInput;
+  textInput=document.getElementById('message');
+}
+
+window.addEventListener('DOMContentLoaded', setup, false);
+
+window.addEventListener('beforeunload', function(event){return 'You have changes that have not been saved...'},false);
